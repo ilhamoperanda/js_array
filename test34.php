@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function nthlargest(arra,highest){
 			var x = 0,
 				y = 0,
@@ -54,3 +54,4 @@ function nthlargest(arra,highest){
 		}
 		
 console.log(nthlargest([ 43, 56, 23, 89, 88, 90, 99, 652], 4)); 
+</script>

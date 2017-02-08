@@ -12,11 +12,9 @@ body {padding-top:50px}
 <input type="button" id="button1" value="Add" onclick="add_element_to_array();"></input>
 <input type="button" id="button2" value="Display" onclick="display_array();"></input>
 <div id="Result"></div> 
-</body>
-</html>
-JavaScript Code :
 
-var x = 0;
+<script type="text/javascript">
+	var x = 0;
 var array = Array();
 
 function add_element_to_array()
@@ -37,3 +35,7 @@ function display_array()
    }
    document.getElementById("Result").innerHTML = e;
 }
+</script>
+</body>
+</html>
+

@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+    
 function num_string_range(start, end, step) 
   {
     var range = [];
@@ -57,3 +57,4 @@ console.log(num_string_range("Z", "A", 2));
 console.log(num_string_range(0, -5, 1));
 console.log(num_string_range(0, 25, 5));
 console.log(num_string_range(20, 5, 5));
+</script>

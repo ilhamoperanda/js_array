@@ -5,10 +5,8 @@
 <title>Write a JavaScript function to remove. 'null', '0', '""', 'false', 'undefined' and 'NaN' values from an array.</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+    
 function filter_array(test_array) {
     var index = -1,
         arr_length = test_array ? test_array.length : 0,
@@ -26,3 +24,6 @@ function filter_array(test_array) {
     return result;
 }
 console.log(filter_array([NaN, 0, 15, false, -22, '',undefined, 47, null]));
+</script>
+</body>
+</html>

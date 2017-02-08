@@ -7,8 +7,8 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 str = 'c';
 var UPPER = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 var LOWER = 'abcdefghijklmnopqrstuvwxyz';
@@ -30,3 +30,4 @@ var result = [];
     }
   }
 console.log(result.join(''));
+</script>

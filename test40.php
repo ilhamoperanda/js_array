@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function array_range(start, len) 
      {
 		var arr = new Array(len);
@@ -24,3 +24,4 @@ function array_range(start, len)
 console.log(array_range(1, 4));
 
 console.log(array_range(-6, 4));
+</script>

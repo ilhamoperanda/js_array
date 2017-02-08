@@ -5,11 +5,9 @@
 <title>Display colors using ordinal numbers</title>
 </head>
 <body> 
-</body>
-</html>
-JavaScript Code :
-
-var color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
+<script type="text/javascript">
+	
+	var color = ["Blue ", "Green", "Red", "Orange", "Violet", "Indigo", "Yellow "];
 
 function Ordinal(n)
  {
@@ -25,3 +23,7 @@ for(n = 0; n < color.length; n++){
 
 console.log(output);
 }
+</script>
+</body>
+</html>
+

@@ -5,11 +5,8 @@
 <title>Print 2-D array</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
-// a sample 2-D array 
+<script type="text/javascript">
+	// a sample 2-D array 
 var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27], [7, 4, 28, 14], [3, 10, 26, 7]];
  
 for (var i in a) 
@@ -20,3 +17,7 @@ for (var i in a)
       console.log(" " + a[i][j]);
      }
 }
+</script>
+</body>
+</html>
+

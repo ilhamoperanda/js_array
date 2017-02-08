@@ -7,8 +7,8 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+        
 var arr1=[-3,8,7,6,5,-4,3,2,1];
 var arr2=[];
 var min=arr1[0];
@@ -37,3 +37,4 @@ for (var i=0;i<arr1.length;i++)
         min=max;
 }
 console.log(arr2);
+</script>

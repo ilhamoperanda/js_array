@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function contains(arr, element) {
     for (var i = 0; i < arr.length; i++) {
         if (arr[i] === element) {
@@ -20,3 +20,4 @@ function contains(arr, element) {
 }
 arr = [2, 5, 9, 6];
 console.log(contains(arr, 5));
+</script>

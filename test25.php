@@ -5,11 +5,8 @@
   <title>Write a JavaScript function to sort an lowing array of objects by title value.</title>
 </head>
 <body>
-
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 var library = [ 
    { author: 'Bill Gates', title: 'The Road Ahead', libraryID: 1254},
    { author: 'Steve Jobs', title: 'Walter Isaacson', libraryID: 4264},
@@ -26,3 +23,7 @@ function compare_to_sort(x,y)
  }
 
 console.log(library.sort(compare_to_sort));
+</script>
+
+</body>
+</html>

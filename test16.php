@@ -5,10 +5,8 @@
 <title>Find Leap years in a range</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 function leap_year_range(st_year, end_year) {
         var year_range = [];
         for (var i = st_year; i <= end_year; i++)
@@ -36,3 +34,6 @@ function test_LeapYear(year) {
 }
 
 console.log(leap_year_range(2000,2012));
+</script>
+</body>
+</html>

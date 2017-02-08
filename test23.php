@@ -5,10 +5,8 @@
 <title>JS, difference between two arrays</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 function difference(arr1,arr2) {
  var a1= flatten(arr1,true);
  var a2= flatten(arr2,true);
@@ -40,3 +38,6 @@ function difference(arr1,arr2) {
   console.log(difference([1, 2, 3], [100, 2, 1, 10]));
   console.log(difference([1, 2, 3, 4, 5], [1, [2], [3, [[4]]],[5,6]]));
   console.log(difference([1, 2, 3], [100, 2, 1, 10]));
+</script>
+</body>
+</html>

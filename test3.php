@@ -7,8 +7,8 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 first =  function(array, n) {
       if (array == null) 
       return void 0;
@@ -24,3 +24,4 @@ console.log(first([],3));
 console.log(first([7, 9, 0, -2],3));
 console.log(first([7, 9, 0, -2],6));
 console.log(first([7, 9, 0, -2],-3));
+</script>

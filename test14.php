@@ -5,11 +5,8 @@
 <title>Remove duplicate items from an JavaScript array </title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
-function removeDuplicates(num) {
+<script type="text/javascript">
+  function removeDuplicates(num) {
   var x,
       len=num.length,
       out=[],
@@ -27,3 +24,7 @@ var Mynum = [1, 2, 2, 4, 5, 4, 7, 8, 7, 3, 6];
 result = removeDuplicates(Mynum);
 console.log(Mynum);
 console.log(result);
+</script>
+</body>
+</html>
+

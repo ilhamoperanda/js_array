@@ -5,10 +5,8 @@
 <title>JS Bin</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 function union(arra1, arra2) {
   
   if ((arra1 == null) || (arra2==null)) 
@@ -34,3 +32,7 @@ function union(arra1, arra2) {
   return res;
 }
 console.log(union([1, 2, 3], [100, 2, 1, 10]));
+
+</script>
+</body>
+</html>

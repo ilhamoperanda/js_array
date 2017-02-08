@@ -5,11 +5,8 @@
 <title>Sum of squares of a numeric vector</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
-function sum_sq(array) {
+<script type="text/javascript">
+	function sum_sq(array) {
   var sum = 0, 
       i = array.length;
   while (i--) 
@@ -18,3 +15,7 @@ function sum_sq(array) {
 }
  
 console.log(sum_sq([0,1,2,3,4])); 
+</script>
+</body>
+</html>
+

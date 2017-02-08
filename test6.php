@@ -7,8 +7,8 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 var num=window.prompt();
 var str = num.toString();
 var result = [str[0]];
@@ -25,3 +25,4 @@ for(var x=1; x<str.length; x++)
      }
   }
 console.log(result.join(''));
+</script>

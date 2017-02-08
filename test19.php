@@ -5,10 +5,8 @@
 <title>compute the sum of each individual index value from two arrays</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 function Arrays_sum(array1, array2) 
 {
   var result = [];
@@ -43,3 +41,6 @@ function Arrays_sum(array1, array2)
 }
 
 console.log(Arrays_sum([1,0,2,3,4], [3,5,6,7,8,13]));
+</script>
+</body>
+</html>

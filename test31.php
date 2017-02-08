@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function remove_array_element(array, n)
  {
    var index = array.indexOf(n);
@@ -20,3 +20,4 @@ function remove_array_element(array, n)
  }
 
 console.log(remove_array_element([2, 5, 9, 6], 5));
+</script>

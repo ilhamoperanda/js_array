@@ -5,10 +5,8 @@
 <title>Flatten a nested array</title>
 </head>
 <body>
-</body>
-</html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 var flatten = function(a, shallow,r){
   if(!r){ r = []}
    
@@ -29,3 +27,6 @@ if (shallow) {
 console.log(flatten([1, [2], [3, [[4]]],[5,6]]));
 
 console.log(flatten([1, [2], [3, [[4]]],[5,6]], true));
+</script>
+</body>
+</html>

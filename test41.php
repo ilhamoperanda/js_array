@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function rangeBetwee(start, end) 
 {
   
@@ -34,3 +34,4 @@ function rangeBetwee(start, end)
 
 console.log(rangeBetwee(4, 7));
 console.log(rangeBetwee(-4, 7));
+</script>

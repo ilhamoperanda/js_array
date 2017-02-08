@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 function filter_array_values(arr) {
   arr = arr.filter(isEligible);
   return arr;
@@ -22,3 +22,4 @@ function isEligible(value) {
 }
 
 console.log(filter_array_values([58, '', 'abcd', true, null, false, 0]));
+</script>

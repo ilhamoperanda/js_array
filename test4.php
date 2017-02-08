@@ -7,8 +7,8 @@
 <body>
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+	
 last =  function(array, n) {
   if (array == null) 
     return void 0;
@@ -20,3 +20,4 @@ last =  function(array, n) {
 console.log(last([7, 9, 0, -2]));
 console.log(last([7, 9, 0, -2],3));
 console.log(last([7, 9, 0, -2],6));
+</script>

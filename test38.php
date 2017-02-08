@@ -8,8 +8,8 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
+  
 function move(arr, old_index, new_index) {
     while (old_index < 0) {
         old_index += arr.length;
@@ -30,3 +30,4 @@ function move(arr, old_index, new_index) {
 console.log(move([10, 20, 30, 40, 50], 0, 2));
 
 console.log(move([10, 20, 30, 40, 50], -1, -2));
+</script>

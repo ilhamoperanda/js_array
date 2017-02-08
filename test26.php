@@ -8,11 +8,11 @@
 
 </body>
 </html>
-JavaScript Code :
-
+<script type="text/javascript">
 function twoSum(nums, target_num) {
   var map = [];
   var indexnum = [];
+  
   
   for (var x = 0; x < nums.length; x++)
   {
@@ -31,3 +31,4 @@ function twoSum(nums, target_num) {
   return indexnum;
   }
 console.log(twoSum([10,20,10,40,50,60,70],50));
+</script>
